@@ -1,0 +1,122 @@
+﻿@page "/assets/new"
+@inject NavigationManager Nav
+@inject ASM.Shared.Services.AppDbContext Db
+
+<h3>Opret nyt aktiv</h3>
+
+<EditForm Model="@asset" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label class="form-label">Navn</label>
+            <InputText class="form-control" @bind-Value="asset.Name" />
+        </div>
+
+        <div class="col-md-6">
+            <label class="form-label">Serienummer</label>
+            <InputText class="form-control" @bind-Value="asset.SerialNumber" />
+        </div>
+
+        <div class="col-md-6 mt-3">
+            <label class="form-label">Model</label>
+            <InputText class="form-control" @bind-Value="asset.Model" />
+        </div>
+
+        <div class="col-md-6 mt-3">
+            <label class="form-label">Indkøbsdato</label>
+            <InputDate class="form-control" @bind-Value="asset.PurchaseDate" />
+        </div>
+
+        <div class="col-md-6 mt-3">
+            <label class="form-label">Pris</label>
+            <InputNumber class="form-control" @bind-Value="asset.Price" />
+        </div>
+
+        <div class="col-md-6 mt-3">
+            <label class="form-label">Status</label>
+            <InputSelect class="form-select" @bind-Value="asset.CurrentStatus">
+                @foreach (var status in statuses)
+                {
+                    <option value="@status">@status</option>
+                }
+            </InputSelect>
+        </div>
+
+        <div class="col-md-6 mt-3">
+            <label class="form-label">Kategori</label>
+            <InputSelect class="form-select" @bind-Value="asset.CategoryId">
+                <option value="">Vælg kategori</option>
+                @foreach (var cat in categories)
+                {
+                    <option value="@cat.Id">@cat.Name</option>
+                }
+            </InputSelect>
+        </div>
+
+
+        <div class="col-md-6 mt-3">
+            <label class="form-label">Placering</label>
+            <InputSelect class="form-select" @bind-Value="asset.LocationId">
+                <option value="">Ingen</option>
+                @foreach (var loc in locations)
+                {
+                    <option value="@loc.Id">@loc.Name</option>
+                }
+            </InputSelect>
+        </div>
+
+        <div class="col-md-6 mt-3">
+            <label class="form-label">Ansvarlig Bruger</label>
+            <InputSelect class="form-select" @bind-Value="asset.ResponsibleUserId">
+                <option value="">Ingen</option>
+                @foreach (var user in users)
+                {
+                    <option value="@user.Id">@user.Name</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-4">Opret</button>
+    <a href="/assets" class="btn btn-secondary mt-4 ms-2">Annullér</a>
+</EditForm>
+
+@code {
+    private Asset asset = new()
+        {
+            PurchaseDate = DateTime.Today,
+            CurrentStatus = "Tilgængelig"
+
+        };
+
+    private List<AssetCategory> categories = new();
+    private List<Location> locations = new();
+    private List<User> users = new();
+
+    private readonly string[] statuses = new[]
+    {
+        "Tilgængelig", "I brug", "Udlånt", "Til reparation", "Udfaset"
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await Db.AssetCategories.OrderBy(c => c.Name).ToListAsync();
+        locations = await Db.Locations.OrderBy(l => l.Name).ToListAsync();
+        users = await Db.Users.OrderBy(u => u.Name).ToListAsync();
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        Console.WriteLine("dwDWADAWDADWA");
+        Console.WriteLine(asset.CategoryId);
+        asset.CreatedAt = DateTime.UtcNow;
+        asset.UpdatedAt = DateTime.UtcNow;
+
+        Db.Assets.Add(asset);
+        await Db.SaveChangesAsync();
+
+        Nav.NavigateTo("/assets");
+    }
+}

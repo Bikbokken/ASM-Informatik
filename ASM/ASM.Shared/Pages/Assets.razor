@@ -1,0 +1,110 @@
+﻿@page "/assets"
+@inject ASM.Shared.Services.AppDbContext Db
+
+<div class="d-flex justify-content-between w-100">
+
+    <h3>Alle Aktiver</h3>
+    <a class="btn btn-sm btn-outline-primary" href="/assets/new">Ny</a>
+
+</div>
+
+    <table class="table table-hover table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Navn</th>
+                <th>Model</th>
+                <th>Serienummer</th>
+                <th>Kategori</th>
+                <th>Status</th>
+                <th>Placering</th>
+                <th>Ansvarlig</th>
+                <th>Indkøbsdato</th>
+                <th>Pris</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var asset in filteredAssets)
+            {
+                <tr>
+                    <td>@asset.Name</td>
+                    <td>@asset.Model</td>
+                    <td>@asset.SerialNumber</td>
+                    <td>@asset.Category?.Name</td>
+                    <td>
+                        <span class="badge @GetStatusBadgeClass(asset.CurrentStatus)">
+                            @asset.CurrentStatus
+                        </span>
+                    </td>
+                    <td>@asset.Location?.Name</td>
+                    <td>@asset.ResponsibleUser?.Name</td>
+                    <td>@asset.PurchaseDate.ToShortDateString()</td>
+                    <td>@asset.Price.ToString("C")</td>
+                    <td>
+                        <a class="btn btn-sm btn-outline-primary" href="/asset/@asset.Id">Rediger</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+@code {
+    private List<Asset> allAssets = new();
+    private List<Asset> filteredAssets = new();
+    private List<AssetCategory> categories = new();
+
+    private string? selectedStatus;
+    private int? selectedCategoryId;
+
+    private readonly string[] statuses = new[]
+    {
+        "Tilgængelig", "I brug", "Udlånt", "Til reparation", "Udfaset"
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await Db.AssetCategories.OrderBy(c => c.Name).ToListAsync();
+
+        allAssets = await Db.Assets
+            .Include(a => a.Category)
+            .Include(a => a.Location)
+            .Include(a => a.ResponsibleUser)
+            .ToListAsync();
+
+        FilterAssets();  // Apply filtering based on default values
+    }
+
+    private void FilterAssets()
+    {
+        filteredAssets = allAssets
+            .Where(a =>
+                (string.IsNullOrEmpty(selectedStatus) || a.CurrentStatus == selectedStatus) &&
+                (!selectedCategoryId.HasValue || a.CategoryId == selectedCategoryId))
+            .ToList();
+    }
+
+    private string GetStatusBadgeClass(string status)
+    {
+        return status switch
+        {
+            "Tilgængelig" => "bg-success text-white",
+            "I brug" => "bg-primary text-white",
+            "Udlånt" => "bg-warning text-dark",
+            "Til reparation" => "bg-danger text-white",
+            "Udfaset" => "bg-secondary text-white",
+            _ => "bg-light text-dark"
+        };
+    }
+
+    private void OnCategoryChanged(int? categoryId)
+    {
+        selectedCategoryId = categoryId;
+        FilterAssets();
+    }
+
+    private void OnStatusChanged(string status)
+    {
+        selectedStatus = status;
+        FilterAssets();
+    }
+}

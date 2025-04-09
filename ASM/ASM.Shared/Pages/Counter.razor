@@ -1,0 +1,21 @@
+﻿@page "/counter"
+@using Microsoft.EntityFrameworkCore
+
+@inject ASM.Shared.Services.AppDbContext DbContext
+
+<h3>Users</h3>
+<ul>
+    @foreach (var user in Users)
+    {
+        <li>@user.Name (@user.Address)</li>
+    }
+</ul>
+
+@code {
+    private List<ASM.Shared.Models.Location> Users = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Users = await DbContext.Locations.ToListAsync();
+    }
+}

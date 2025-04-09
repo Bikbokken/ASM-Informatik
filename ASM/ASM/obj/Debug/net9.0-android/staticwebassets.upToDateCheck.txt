@@ -1,0 +1,4 @@
+C:\Users\Benjamin\source\repos\ASM\ASM\ASM\wwwroot\index.html
+C:\Users\Benjamin\source\repos\ASM\ASM\ASM\wwwroot\app.css
+wwwroot\app.css
+wwwroot\index.html

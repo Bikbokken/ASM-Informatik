@@ -1,0 +1,143 @@
+﻿@page "/categories"
+@inject ASM.Shared.Services.AppDbContext Db
+
+<h3>Asset Categories</h3>
+
+<EditForm Model="formModel" OnValidSubmit="SaveCategory">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-2">
+        <label>Name</label>
+        <InputText class="form-control" @bind-Value="formModel.Name" />
+    </div>
+
+    <div class="mb-2">
+        <label>Parent Category (optional)</label>
+        <InputSelect class="form-control" @bind-Value="formModel.ParentId">
+            <option value="">(None)</option>
+            @foreach (var cat in allCategories.Where(c => c.Id != formModel.Id))
+            {
+                <option value="@cat.Id">@cat.Name</option>
+            }
+        </InputSelect>
+    </div>
+
+    <button type="submit" class="btn btn-primary me-2">@((formModel.Id == 0) ? "Add" : "Update")</button>
+    @if (formModel.Id != 0)
+    {
+        <button type="button" class="btn btn-secondary" @onclick="ResetForm">Cancel</button>
+    }
+</EditForm>
+
+<hr />
+
+<h5>Existing Categories</h5>
+
+@if (topLevelCategories.Count == 0)
+{
+    <p>No categories found.</p>
+}
+else
+{
+    <ul>
+        @foreach (var category in topLevelCategories)
+        {
+            @CategoryItem(category)
+        }
+    </ul>
+}
+
+@code {
+    private AssetCategory formModel = new();
+    private List<AssetCategory> topLevelCategories = new();
+    private List<AssetCategory> allCategories = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCategories();
+    }
+
+    private async Task LoadCategories()
+    {
+        topLevelCategories = await Db.AssetCategories
+            .Where(c => c.ParentId == null)
+            .Include(c => c.Children)
+            .ToListAsync();
+
+        allCategories = await Db.AssetCategories.ToListAsync();
+    }
+
+    private async Task SaveCategory()
+    {
+        if (formModel.Id == 0)
+        {
+            Db.AssetCategories.Add(formModel);
+        }
+        else
+        {
+            var existing = await Db.AssetCategories.FindAsync(formModel.Id);
+            if (existing is not null)
+            {
+                existing.Name = formModel.Name;
+                existing.ParentId = formModel.ParentId;
+            }
+        }
+
+        await Db.SaveChangesAsync();
+        ResetForm();
+        await LoadCategories();
+    }
+
+    private void EditCategory(AssetCategory category)
+    {
+        formModel = new AssetCategory
+            {
+                Id = category.Id,
+                Name = category.Name,
+                ParentId = category.ParentId
+            };
+    }
+
+    private async Task DeleteCategory(AssetCategory category)
+    {
+        Db.AssetCategories.Remove(category);
+        await Db.SaveChangesAsync();
+        await LoadCategories();
+    }
+
+    private void ResetForm()
+    {
+        formModel = new();
+    }
+
+    RenderFragment CategoryItem(AssetCategory category) => builder =>
+    {
+        builder.OpenElement(0, "li");
+        builder.AddContent(1, $"{category.Name} ");
+
+        builder.OpenElement(2, "button");
+        builder.AddAttribute(3, "class", "btn btn-sm btn-outline-primary me-1");
+        builder.AddAttribute(4, "onclick", EventCallback.Factory.Create(this, () => EditCategory(category)));
+        builder.AddContent(5, "Edit");
+        builder.CloseElement();
+
+        builder.OpenElement(6, "button");
+        builder.AddAttribute(7, "class", "btn btn-sm btn-outline-danger");
+        builder.AddAttribute(8, "onclick", EventCallback.Factory.Create(this, () => DeleteCategory(category)));
+        builder.AddContent(9, "Delete");
+        builder.CloseElement();
+
+        if (category.Children.Any())
+        {
+            builder.OpenElement(10, "ul");
+            foreach (var child in category.Children)
+            {
+                builder.AddContent(11, CategoryItem(child));
+            }
+            builder.CloseElement();
+        }
+
+        builder.CloseElement();
+    };
+}

@@ -1,0 +1,145 @@
+﻿@page "/asset/{id:int}"
+@inject ASM.Shared.Services.AppDbContext Db
+@inject NavigationManager Navigation
+
+<h3>Rediger Aktiv</h3>
+
+@if (asset == null)
+{
+    <p><em>Indlæser...</em></p>
+}
+else
+{
+    <EditForm Model="asset" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="row mb-3">
+
+
+        <div class="form-group col-md-6">
+            <label for="name">Navn</label>
+            <InputText id="name" class="form-control" @bind-Value="asset.Name" />
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="model">Model</label>
+            <InputText id="model" class="form-control" @bind-Value="asset.Model" />
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="serialNumber">Serienummer</label>
+            <InputText id="serialNumber" class="form-control" @bind-Value="asset.SerialNumber" />
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="category">Kategori</label>
+            <InputSelect id="category" class="form-control" @bind-Value="asset.CategoryId">
+                <option value="">Vælg kategori</option>
+                @foreach (var category in categories)
+                {
+                    <option value="@category.Id">@category.Name</option>
+                }
+            </InputSelect>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="status">Status</label>
+            <InputSelect id="status" class="form-control" @bind-Value="asset.CurrentStatus">
+                <option value="">Vælg status</option>
+                @foreach (var status in statuses)
+                {
+                    <option value="@status">@status</option>
+                }
+            </InputSelect>
+        </div>
+
+        <!-- Dropdown for Location -->
+        <div class="form-group col-md-6">
+            <label for="location">Placering</label>
+            <InputSelect id="location" class="form-control" @bind-Value="asset.LocationId">
+                <option value="">Vælg placering</option>
+                @foreach (var location in locations)
+                {
+                    <option value="@location.Id">@location.Name</option>
+                }
+            </InputSelect>
+        </div>
+
+        <!-- Dropdown for Responsible User -->
+        <div class="form-group">
+            <label for="responsibleUser">Ansvarlig</label>
+            <InputSelect id="responsibleUser" class="form-control" @bind-Value="asset.ResponsibleUserId">
+                <option value="">Vælg ansvarlig</option>
+                @foreach (var user in users)
+                {
+                    <option value="@user.Id">@user.Name</option>
+                }
+            </InputSelect>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="purchaseDate">Indkøbsdato</label>
+            <InputDate id="purchaseDate" class="form-control" @bind-Value="asset.PurchaseDate" />
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="price">Pris</label>
+            <InputNumber id="price" class="form-control" @bind-Value="asset.Price" />
+        </div>
+        </div>
+
+
+        <div class="form-group mt-3">
+            <button type="submit" class="btn btn-primary">Gem ændringer</button>
+        </div>
+    </EditForm>
+}
+
+<p>
+    <button class="btn btn-secondary mt-2" @onclick="GoBack">Tilbage</button>
+</p>
+
+@code {
+    [Parameter] public int Id { get; set; }
+    private Asset asset;
+    private List<AssetCategory> categories = new();
+    private List<Location> locations = new();   // List for locations
+    private List<User> users = new();           // List for responsible users
+    private string[] statuses = new[]
+    {
+        "Tilgængelig", "I brug", "Udlånt", "Til reparation", "Udfaset"
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await Db.AssetCategories.OrderBy(c => c.Name).ToListAsync();
+        locations = await Db.Locations.OrderBy(l => l.Name).ToListAsync();   // Load locations
+        users = await Db.Users.OrderBy(u => u.Name).ToListAsync();           // Load users
+
+        asset = await Db.Assets
+            .Include(a => a.Category)
+            .Include(a => a.Location)
+            .Include(a => a.ResponsibleUser)
+            .FirstOrDefaultAsync(a => a.Id == Id);
+
+        if (asset == null)
+        {
+            // Handle the case where the asset does not exist
+            Navigation.NavigateTo("/assets");
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        // Update the asset in the database
+        Db.Assets.Update(asset);
+        await Db.SaveChangesAsync();
+        Navigation.NavigateTo("/assets");
+    }
+
+    private void GoBack()
+    {
+        Navigation.NavigateTo("/assets");
+    }
+}

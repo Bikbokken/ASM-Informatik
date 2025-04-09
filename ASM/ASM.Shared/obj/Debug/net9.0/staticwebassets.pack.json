@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Benjamin\\source\\repos\\ASM\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ASM.Shared.vbcvsdn8hs.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Benjamin\\source\\repos\\ASM\\ASM\\ASM.Shared\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Benjamin\\source\\repos\\ASM\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Benjamin\\source\\repos\\ASM\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Benjamin\\source\\repos\\ASM\\ASM\\ASM.Shared\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ASM.Shared.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ASM.Shared.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.ASM.Shared.props",
+      "PackagePath": "build\\ASM.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.ASM.Shared.props",
+      "PackagePath": "buildMultiTargeting\\ASM.Shared.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.ASM.Shared.props",
+      "PackagePath": "buildTransitive\\ASM.Shared.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

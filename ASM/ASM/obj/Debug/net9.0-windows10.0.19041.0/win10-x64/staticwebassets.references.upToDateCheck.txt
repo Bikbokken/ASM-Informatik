@@ -1,0 +1,6 @@
+C:\Users\Benjamin\source\repos\ASM\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Benjamin\source\repos\ASM\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Benjamin\source\repos\ASM\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Benjamin\source\repos\ASM\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Benjamin\source\repos\ASM\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Benjamin\source\repos\ASM\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
