@@ -1,0 +1,97 @@
+﻿@page "/locations"
+@inject ASM.Shared.Services.AppDbContext Db
+@inject IJSRuntime JS
+
+
+<h3>Lokationer</h3>
+
+<EditForm Model="newLocation" OnValidSubmit="AddLocation">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <InputText class="form-control" placeholder="Navn" @bind-Value="newLocation.Name" />
+        </div>
+        <div class="col-md-4">
+            <InputText class="form-control" placeholder="Adresse (valgfri)" @bind-Value="newLocation.Address" />
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-primary w-100" type="submit">Tilføj lokation</button>
+        </div>
+    </div>
+</EditForm>
+
+@if (locations.Count == 0)
+{
+    <p><em>Ingen lokationer fundet.</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Navn</th>
+                <th>Adresse</th>
+                <th>Handling</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var location in locations)
+            {
+                <tr>
+                    <td>@location.Name</td>
+                    <td>@location.Address</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" @onclick="() => DeleteLocation(location.Id)">Slet</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Location> locations = new();
+    private Location newLocation = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadLocations();
+    }
+
+    private async Task LoadLocations()
+    {
+        locations = await Db.Locations
+            .OrderBy(l => l.Name)
+            .ToListAsync();
+    }
+
+    private async Task AddLocation()
+    {
+        if (!string.IsNullOrWhiteSpace(newLocation.Name))
+        {
+            Db.Locations.Add(newLocation);
+            await Db.SaveChangesAsync();
+
+            newLocation = new(); // reset form
+            await LoadLocations();
+        }
+    }
+
+    private async Task DeleteLocation(int id)
+    {
+        bool confirmed = await JS.InvokeAsync<bool>("confirm", $"Er du sikker på, at du vil slette denne lokation");
+        if (confirmed)
+        {
+
+            var location = await Db.Locations.FindAsync(id);
+            if (location is not null)
+            {
+                Db.Locations.Remove(location);
+                await Db.SaveChangesAsync();
+                await LoadLocations();
+            }
+        }
+    }
+}

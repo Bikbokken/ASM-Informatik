@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Benjamin\\source\\repos\\ASM\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css",
+      "Id": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css",
       "PackagePath": "staticwebassets\\ASM.styles.css"
     },
     {
-      "Id": "C:\\Users\\Benjamin\\source\\repos\\ASM\\ASM\\ASM\\wwwroot\\app.css",
+      "Id": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\Benjamin\\source\\repos\\ASM\\ASM\\ASM\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
