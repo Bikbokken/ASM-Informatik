@@ -1,6 +1,6 @@
 ﻿@page "/locations"
-@inject ASM.Shared.Services.AppDbContext Db
 @inject IJSRuntime JS
+@inject LocationService LocationService;
 
 
 <h3>Lokationer</h3>
@@ -62,18 +62,16 @@ else
 
     private async Task LoadLocations()
     {
-        locations = await Db.Locations
-            .OrderBy(l => l.Name)
-            .ToListAsync();
+        locations = await LocationService.GetAllAsync();
+        locations = locations
+            .OrderBy(l => l.Name).ToList();
     }
 
     private async Task AddLocation()
     {
         if (!string.IsNullOrWhiteSpace(newLocation.Name))
         {
-            Db.Locations.Add(newLocation);
-            await Db.SaveChangesAsync();
-
+            await LocationService.CreateAsync(newLocation);
             newLocation = new(); // reset form
             await LoadLocations();
         }
@@ -84,12 +82,10 @@ else
         bool confirmed = await JS.InvokeAsync<bool>("confirm", $"Er du sikker på, at du vil slette denne lokation");
         if (confirmed)
         {
-
-            var location = await Db.Locations.FindAsync(id);
+            var location = await LocationService.GetByIdAsync(id);
             if (location is not null)
             {
-                Db.Locations.Remove(location);
-                await Db.SaveChangesAsync();
+                await LocationService.DeleteAsync(location.Id);
                 await LoadLocations();
             }
         }
