@@ -1,5 +1,5 @@
 ﻿@page "/assets"
-@inject ASM.Shared.Services.AppDbContext Db
+@inject AssetService AssetService
 
 <div class="d-flex justify-content-between w-100">
 
@@ -49,7 +49,6 @@
     </table>
 
 @code {
-    private List<Asset> allAssets = new();
     private List<Asset> filteredAssets = new();
     private List<AssetCategory> categories = new();
 
@@ -58,29 +57,18 @@
 
     private readonly string[] statuses = new[]
     {
-        "Tilgængelig", "I brug", "Udlånt", "Til reparation", "Udfaset"
-    };
+    "Tilgængelig", "I brug", "Udlånt", "Til reparation", "Udfaset"
+};
 
     protected override async Task OnInitializedAsync()
     {
-        categories = await Db.AssetCategories.OrderBy(c => c.Name).ToListAsync();
-
-        allAssets = await Db.Assets
-            .Include(a => a.Category)
-            .Include(a => a.Location)
-            .Include(a => a.ResponsibleUser)
-            .ToListAsync();
-
-        FilterAssets();  // Apply filtering based on default values
+        categories = await AssetService.GetCategoriesAsync();
+        await LoadAssetsAsync();
     }
 
-    private void FilterAssets()
+    private async Task LoadAssetsAsync()
     {
-        filteredAssets = allAssets
-            .Where(a =>
-                (string.IsNullOrEmpty(selectedStatus) || a.CurrentStatus == selectedStatus) &&
-                (!selectedCategoryId.HasValue || a.CategoryId == selectedCategoryId))
-            .ToList();
+        filteredAssets = await AssetService.GetFilteredAssetsAsync(selectedStatus, selectedCategoryId);
     }
 
     private string GetStatusBadgeClass(string status)
@@ -96,15 +84,16 @@
         };
     }
 
-    private void OnCategoryChanged(int? categoryId)
+    private async void OnCategoryChanged(int? categoryId)
     {
         selectedCategoryId = categoryId;
-        FilterAssets();
+        await LoadAssetsAsync();
     }
 
-    private void OnStatusChanged(string status)
+    private async void OnStatusChanged(string status)
     {
         selectedStatus = status;
-        FilterAssets();
+        await LoadAssetsAsync();
     }
+
 }

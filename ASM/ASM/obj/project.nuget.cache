@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJysDrPzHM0=",
+  "dgSpecHash": "OFC38442qfY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM\\ASM.csproj",
+  "projectFilePath": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\ASM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Benjamin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -63,7 +63,7 @@
     "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.maui.graphics\\9.0.14\\microsoft.maui.graphics.9.0.14.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\9.0.14\\microsoft.maui.graphics.win2d.winui.desktop.9.0.14.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.14\\microsoft.maui.resizetizer.9.0.14.nupkg.sha512",
-    "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.1\\microsoft.net.illink.tasks.9.0.1.nupkg.sha512",
+    "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.4\\microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
@@ -214,8 +214,7 @@
     "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.coroutines.core\\1.8.1.3\\xamarin.kotlinx.coroutines.core.1.8.1.3.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.8.1.3\\xamarin.kotlinx.coroutines.core.jvm.1.8.1.3.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.serialization.core\\1.7.1.3\\xamarin.kotlinx.serialization.core.1.7.1.3.nupkg.sha512",
-    "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.serialization.core.jvm\\1.7.1.3\\xamarin.kotlinx.serialization.core.jvm.1.7.1.3.nupkg.sha512",
-    "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+    "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.serialization.core.jvm\\1.7.1.3\\xamarin.kotlinx.serialization.core.jvm.1.7.1.3.nupkg.sha512"
   ],
   "logs": []
 }

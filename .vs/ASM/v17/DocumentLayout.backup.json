@@ -1,22 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\",
+  "WorkspaceRootPath": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\documents\\asm-informatik\\asm\\asm.shared\\pages\\locations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\pages\\locations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\pages\\editasset.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\pages\\editasset.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\documents\\asm-informatik\\asm\\asm.shared\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\documents\\asm-informatik\\asm\\asm.shared\\pages\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\services\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\services\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BEC485-D876-4BD8-B479-7572E08DDB82}|ASM\\ASM.Web\\ASM.Web.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7BEC485-D876-4BD8-B479-7572E08DDB82}|ASM\\ASM.Web\\ASM.Web.csproj|solutionrelative:asm\\asm.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\services\\assetcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\services\\assetcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\repositories\\assetcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\repositories\\assetcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\repositories\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\repositories\\assetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\pages\\assets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\pages\\assets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Locations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ASM\\ASM.Shared\\Pages\\Locations.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\services\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\services\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\pages\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\pages\\categories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\documents\\asm-informatik\\asm\\asm.shared\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +98,292 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\UserService.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:23:43.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:23:27.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\LocationService.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Services\\LocationService.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\LocationService.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Services\\LocationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:23:07.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Repositories\\LocationRepository.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Repositories\\LocationRepository.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Repositories\\LocationRepository.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Repositories\\LocationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:22:48.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssetCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\AssetCategoryService.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Services\\AssetCategoryService.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\AssetCategoryService.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Services\\AssetCategoryService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:22:20.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Web\\Program.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Web\\Program.cs",
+              "RelativeToolTip": "ASM\\ASM.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:12:50.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EditAsset.razor",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\EditAsset.razor",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Pages\\EditAsset.razor",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\EditAsset.razor",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\EditAsset.razor",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T16:28:55.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetService.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\AssetService.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Services\\AssetService.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\AssetService.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Services\\AssetService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:15:16.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssetCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Repositories\\AssetCategoryRepository.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Repositories\\AssetCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Repositories\\AssetCategoryRepository.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Repositories\\AssetCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:21:37.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\_Imports.razor",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\_Imports.razor",
+              "RelativeToolTip": "ASM\\ASM.Shared\\_Imports.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T18:16:20.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Repositories\\AssetRepository.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Repositories\\AssetRepository.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Repositories\\AssetRepository.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Repositories\\AssetRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:14:54.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Assets.razor",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Assets.razor",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Pages\\Assets.razor",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Assets.razor",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\Assets.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T18:13:25.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Services\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Services\\AppDbContext.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Services\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:13:08.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Locations.razor",
-              "DocumentMoniker": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Locations.razor",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Locations.razor",
               "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Pages\\Locations.razor",
-              "ToolTip": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Locations.razor",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Locations.razor",
               "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\Locations.razor",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFMAAABxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-10T20:14:31.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\Models\\Location.cs",
-              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Models\\Location.cs",
-              "ToolTip": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\Models\\Location.cs",
-              "RelativeToolTip": "ASM\\ASM.Shared\\Models\\Location.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T20:13:20.882Z",
+              "DocumentIndex": 16,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T16:33:19.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T20:11:40.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-30T16:32:23.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-30T16:31:37.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
+              "RelativeToolTip": "ASM\\ASM.Shared\\wwwroot\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-30T16:31:28.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Counter.razor",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T16:28:55.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Categories.razor",
-              "DocumentMoniker": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Categories.razor",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Categories.razor",
               "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Pages\\Categories.razor",
-              "ToolTip": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Categories.razor",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Categories.razor",
               "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\Categories.razor",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAYwI8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAFgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-10T20:12:53.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "ASM\\ASM.Shared\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T20:11:40.031Z",
-              "EditorCaption": ""
+              "DocumentIndex": 21,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Models\\Location.cs",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T20:13:20.882Z"
             }
           ]
         }

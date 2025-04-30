@@ -1,6 +1,10 @@
 ﻿@page "/assets/new"
 @inject NavigationManager Nav
-@inject ASM.Shared.Services.AppDbContext Db
+
+@inject AssetService AssetService
+@inject AssetCategoryService AssetCategoryService
+@inject LocationService LocationService
+@inject UserService UserService
 
 <h3>Opret nyt aktiv</h3>
 
@@ -102,20 +106,17 @@
 
     protected override async Task OnInitializedAsync()
     {
-        categories = await Db.AssetCategories.OrderBy(c => c.Name).ToListAsync();
-        locations = await Db.Locations.OrderBy(l => l.Name).ToListAsync();
-        users = await Db.Users.OrderBy(u => u.Name).ToListAsync();
+        categories = await AssetCategoryService.GetAllAsync();
+        locations = await LocationService.GetAllAsync();
+        users = await UserService.GetAllAsync();
     }
 
     private async Task HandleValidSubmit()
     {
-        Console.WriteLine("dwDWADAWDADWA");
-        Console.WriteLine(asset.CategoryId);
         asset.CreatedAt = DateTime.UtcNow;
         asset.UpdatedAt = DateTime.UtcNow;
 
-        Db.Assets.Add(asset);
-        await Db.SaveChangesAsync();
+        await AssetService.CreateAssetAsync(asset);
 
         Nav.NavigateTo("/assets");
     }

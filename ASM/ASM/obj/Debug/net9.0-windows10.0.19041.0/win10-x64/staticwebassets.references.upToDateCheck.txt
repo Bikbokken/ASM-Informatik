@@ -8,3 +8,6 @@ C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\stati
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
