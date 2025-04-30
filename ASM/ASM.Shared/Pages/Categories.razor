@@ -1,5 +1,5 @@
 ﻿@page "/categories"
-@inject ASM.Shared.Services.AppDbContext Db
+@inject AssetCategoryService AssetCategoryService
 
 <h3>Asset Categories</h3>
 
@@ -60,31 +60,29 @@ else
 
     private async Task LoadCategories()
     {
-        topLevelCategories = await Db.AssetCategories
+        allCategories = await AssetCategoryService.GetAllAsync();
+        topLevelCategories = allCategories
             .Where(c => c.ParentId == null)
-            .Include(c => c.Children)
-            .ToListAsync();
-
-        allCategories = await Db.AssetCategories.ToListAsync();
+            .OrderBy(c => c.Name)
+            .Select(c =>
+            {
+                c.Children = allCategories.Where(child => child.ParentId == c.Id).ToList();
+                return c;
+            })
+            .ToList();
     }
 
     private async Task SaveCategory()
     {
         if (formModel.Id == 0)
         {
-            Db.AssetCategories.Add(formModel);
+            await AssetCategoryService.CreateCategoryAsync(formModel);
         }
         else
         {
-            var existing = await Db.AssetCategories.FindAsync(formModel.Id);
-            if (existing is not null)
-            {
-                existing.Name = formModel.Name;
-                existing.ParentId = formModel.ParentId;
-            }
+            await AssetCategoryService.UpdateCategoryAsync(formModel);
         }
 
-        await Db.SaveChangesAsync();
         ResetForm();
         await LoadCategories();
     }
@@ -101,8 +99,7 @@ else
 
     private async Task DeleteCategory(AssetCategory category)
     {
-        Db.AssetCategories.Remove(category);
-        await Db.SaveChangesAsync();
+        await AssetCategoryService.DeleteCategoryAsync(category.Id);
         await LoadCategories();
     }
 
