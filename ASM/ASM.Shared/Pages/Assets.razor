@@ -8,67 +8,87 @@
     </div>
 </div>
 
+
+<input type="text"
+       @bind="serialSearchTerm"
+       @oninput="OnSerialSearchChanged"
+       class="form-control mb-4"
+       placeholder="Search by serial number..."
+       style="max-width: 300px;" />
+
+
 <table class="table table-hover table-striped table-bordered">
-        <thead class="table-light">
+    <thead class="table-light">
+        <tr>
+            <th>Navn</th>
+            <th>Model</th>
+            <th>Serienummer</th>
+            <th>Kategori</th>
+            <th>Status</th>
+            <th>Placering</th>
+            <th>Ansvarlig</th>
+            <th>Indkøbsdato</th>
+            <th>Pris</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var asset in filteredAssets)
+        {
             <tr>
-                <th>Navn</th>
-                <th>Model</th>
-                <th>Serienummer</th>
-                <th>Kategori</th>
-                <th>Status</th>
-                <th>Placering</th>
-                <th>Ansvarlig</th>
-                <th>Indkøbsdato</th>
-                <th>Pris</th>
-                <th></th>
+                <td>@asset.Name</td>
+                <td>@asset.Model</td>
+                <td>@asset.SerialNumber</td>
+                <td>@asset.Category?.Name</td>
+                <td>
+                    <span class="badge @GetStatusBadgeClass(asset.CurrentStatus)">
+                        @asset.CurrentStatus
+                    </span>
+                </td>
+                <td>@asset.Location?.Name</td>
+                <td>@asset.ResponsibleUser?.Name</td>
+                <td>@asset.PurchaseDate.ToShortDateString()</td>
+                <td>@asset.Price.ToString("C")</td>
+                <td class="text-center">
+                    <a class="btn btn-sm btn-primary" href="/asset/@asset.Id">Edit</a>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var asset in filteredAssets)
-            {
-                <tr>
-                    <td>@asset.Name</td>
-                    <td>@asset.Model</td>
-                    <td>@asset.SerialNumber</td>
-                    <td>@asset.Category?.Name</td>
-                    <td>
-                        <span class="badge @GetStatusBadgeClass(asset.CurrentStatus)">
-                            @asset.CurrentStatus
-                        </span>
-                    </td>
-                    <td>@asset.Location?.Name</td>
-                    <td>@asset.ResponsibleUser?.Name</td>
-                    <td>@asset.PurchaseDate.ToShortDateString()</td>
-                    <td>@asset.Price.ToString("C")</td>
-                    <td class="text-center">
-                        <a class="btn btn-sm btn-primary" href="/asset/@asset.Id">Edit</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+        }
+    </tbody>
+</table>
 
 @code {
+    private List<Asset> allAssets = new();
     private List<Asset> filteredAssets = new();
     private List<AssetCategory> categories = new();
 
     private string? selectedStatus;
     private int? selectedCategoryId;
+    private string? serialSearchTerm;
+    private void OnSerialSearchChanged(ChangeEventArgs e)
+    {
+        serialSearchTerm = e.Value?.ToString();
+        ApplyFilters();
+    }
 
     private readonly string[] statuses = new[]
     {
-    "Tilgængelig", "I brug", "Udlånt", "Til reparation", "Udfaset"
-};
+        "Tilgængelig", "I brug", "Udlånt", "Til reparation", "Udfaset"
+    };
 
     protected override async Task OnInitializedAsync()
     {
         categories = await AssetService.GetCategoriesAsync();
-        await LoadAssetsAsync();
+        allAssets = await AssetService.GetFilteredAssetsAsync(null, null); // fetch everything
+        ApplyFilters();
     }
 
-    private async Task LoadAssetsAsync()
+    private void ApplyFilters()
     {
-        filteredAssets = await AssetService.GetFilteredAssetsAsync(selectedStatus, selectedCategoryId);
+        filteredAssets = allAssets.Where(asset => 
+            (string.IsNullOrWhiteSpace(serialSearchTerm) ||
+             (asset.SerialNumber?.Contains(serialSearchTerm, StringComparison.OrdinalIgnoreCase) ?? false))
+        ).ToList();
     }
 
     private string GetStatusBadgeClass(string status)
@@ -84,16 +104,27 @@
         };
     }
 
-    private async void OnCategoryChanged(int? categoryId)
+    private void OnCategoryChanged(int? categoryId)
     {
         selectedCategoryId = categoryId;
-        await LoadAssetsAsync();
+        ApplyFilters();
     }
 
-    private async void OnStatusChanged(string status)
+    private void OnStatusChanged(string status)
     {
         selectedStatus = status;
-        await LoadAssetsAsync();
+        ApplyFilters();
     }
 
+    private string? SerialSearchTerm
+    {
+        get => serialSearchTerm;
+        set
+        {
+            serialSearchTerm = value;
+            ApplyFilters();
+            StateHasChanged();
+
+        }
+    }
 }
