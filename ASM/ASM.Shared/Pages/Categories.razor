@@ -1,27 +1,30 @@
 ﻿@page "/categories"
 @inject AssetCategoryService AssetCategoryService
 
-<h3>Asset Categories</h3>
+<h3 class="fw-bold">Asset Categories</h3>
 
 <EditForm Model="formModel" OnValidSubmit="SaveCategory">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
-    <div class="mb-2">
-        <label>Name</label>
-        <InputText class="form-control" @bind-Value="formModel.Name" />
+    <div class="d-flex w-100 gap-2">
+        <div class="flex-grow-1">
+            <label>Name</label>
+            <InputText class="form-control" @bind-Value="formModel.Name" />
+        </div>
+        <div class="mb-2 flex-grow-1½">
+            <label>Parent Category (optional)</label>
+            <InputSelect class="form-control" @bind-Value="formModel.ParentId">
+                <option value="">(None)</option>
+                @foreach (var cat in allCategories.Where(c => c.Id != formModel.Id))
+                {
+                    <option value="@cat.Id">@cat.Name</option>
+                }
+            </InputSelect>
+        </div>
     </div>
 
-    <div class="mb-2">
-        <label>Parent Category (optional)</label>
-        <InputSelect class="form-control" @bind-Value="formModel.ParentId">
-            <option value="">(None)</option>
-            @foreach (var cat in allCategories.Where(c => c.Id != formModel.Id))
-            {
-                <option value="@cat.Id">@cat.Name</option>
-            }
-        </InputSelect>
-    </div>
+
 
     <button type="submit" class="btn btn-primary me-2">@((formModel.Id == 0) ? "Add" : "Update")</button>
     @if (formModel.Id != 0)
@@ -32,26 +35,85 @@
 
 <hr />
 
-<h5>Existing Categories</h5>
-
 @if (topLevelCategories.Count == 0)
 {
     <p>No categories found.</p>
 }
 else
 {
-    <ul>
-        @foreach (var category in topLevelCategories)
-        {
-            @CategoryItem(category)
-        }
-    </ul>
+
+    <table class="table table-hover table-striped table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Existing Categories</th>
+                <th style="width:10%"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in topLevelCategories)
+            {
+                <tr>
+                    <td>@category.Name</td>
+                    <td>
+                        <button class="btn btn-sm btn-primary" @onclick="() => EditCategory(category)">Edit</button>
+                        <button class="btn btn-sm btn-danger" @onclick="() => DeleteCategory(category)">Delete</button>
+                    </td>
+                </tr>
+                @RenderCategoryChildren(category.Children, 1)
+
+            }
+        </tbody>
+    </table>
+
 }
 
+
+
 @code {
+    RenderFragment RenderCategoryChildren(IEnumerable<AssetCategory> children, int indentLevel) => builder =>
+       {
+           if (children == null) return;
+
+           int seq = 0;
+           foreach (var child in children)
+           {
+               builder.OpenElement(seq++, "tr");
+
+               builder.OpenElement(seq++, "td");
+               builder.AddAttribute(seq++, "style", $"padding-left: {indentLevel * 20}px;");
+               builder.AddContent(seq++, $"- {child.Name}");
+               builder.CloseElement(); // td
+               builder.OpenElement(seq++, "td");
+
+               builder.OpenElement(2, "button");
+               builder.AddAttribute(3, "class", "btn btn-sm btn-outline-primary me-1");
+               builder.AddAttribute(4, "onclick", EventCallback.Factory.Create(this, () => EditCategory(child)));
+               builder.AddContent(5, "Edit");
+               builder.CloseElement();
+
+               builder.OpenElement(6, "button");
+               builder.AddAttribute(7, "class", "btn btn-sm btn-outline-danger");
+               builder.AddAttribute(8, "onclick", EventCallback.Factory.Create(this, () => DeleteCategory(child)));
+               builder.AddContent(9, "Delete");
+               builder.CloseElement();
+               builder.CloseElement(); // td
+
+               builder.CloseElement(); // tr
+
+
+           if (child.Children.Any())
+           {
+                Console.WriteLine("Rendering children for: " + child.Name);
+                builder.AddContent(seq++, RenderCategoryChildren(child.Children, indentLevel + 1));
+           }
+       }
+       };
+
     private AssetCategory formModel = new();
     private List<AssetCategory> topLevelCategories = new();
     private List<AssetCategory> allCategories = new();
+
+
 
     protected override async Task OnInitializedAsync()
     {
@@ -61,16 +123,22 @@ else
     private async Task LoadCategories()
     {
         allCategories = await AssetCategoryService.GetAllAsync();
+
+        // Recursively build tree
+        foreach (var category in allCategories)
+        {
+            category.Children = allCategories
+                .Where(c => c.ParentId == category.Id)
+                .OrderBy(c => c.Name)
+                .ToList();
+        }
+
         topLevelCategories = allCategories
             .Where(c => c.ParentId == null)
             .OrderBy(c => c.Name)
-            .Select(c =>
-            {
-                c.Children = allCategories.Where(child => child.ParentId == c.Id).ToList();
-                return c;
-            })
             .ToList();
     }
+
 
     private async Task SaveCategory()
     {

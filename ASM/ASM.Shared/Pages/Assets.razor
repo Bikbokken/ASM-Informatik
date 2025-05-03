@@ -1,14 +1,14 @@
 ﻿@page "/assets"
 @inject AssetService AssetService
 
-<div class="d-flex justify-content-between w-100">
-
-    <h3>Alle Aktiver</h3>
-    <a class="btn btn-sm btn-outline-primary" href="/assets/new">Ny</a>
-
+<div class="d-flex mb-2 align-items-center justify-content-between w-100">
+    <h3 class="fw-bold">Alle Aktiver</h3>
+    <div>
+        <a class="btn btn-md btn-primary mb-0" href="/assets/new">Opret ny</a>
+    </div>
 </div>
 
-    <table class="table table-hover table-bordered">
+<table class="table table-hover table-striped table-bordered">
         <thead class="table-light">
             <tr>
                 <th>Navn</th>
@@ -40,8 +40,8 @@
                     <td>@asset.ResponsibleUser?.Name</td>
                     <td>@asset.PurchaseDate.ToShortDateString()</td>
                     <td>@asset.Price.ToString("C")</td>
-                    <td>
-                        <a class="btn btn-sm btn-outline-primary" href="/asset/@asset.Id">Rediger</a>
+                    <td class="text-center">
+                        <a class="btn btn-sm btn-primary" href="/asset/@asset.Id">Rediger</a>
                     </td>
                 </tr>
             }

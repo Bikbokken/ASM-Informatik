@@ -22,7 +22,8 @@ namespace ASM.Shared.Repositories
         {
             return _context.AssetCategories
                 .OrderBy(c => c.Name)
-                .ToListAsync();
+                .AsNoTracking()
+                .ToListAsync(); 
         }
         public async Task CreateAsync(AssetCategory category)
         {

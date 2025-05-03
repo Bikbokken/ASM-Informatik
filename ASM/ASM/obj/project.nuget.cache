@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OFC38442qfY=",
+  "dgSpecHash": "RyvBXTOTGOk=",
   "success": true,
   "projectFilePath": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\ASM.csproj",
   "expectedPackageFiles": [
@@ -214,7 +214,8 @@
     "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.coroutines.core\\1.8.1.3\\xamarin.kotlinx.coroutines.core.1.8.1.3.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.8.1.3\\xamarin.kotlinx.coroutines.core.jvm.1.8.1.3.nupkg.sha512",
     "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.serialization.core\\1.7.1.3\\xamarin.kotlinx.serialization.core.1.7.1.3.nupkg.sha512",
-    "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.serialization.core.jvm\\1.7.1.3\\xamarin.kotlinx.serialization.core.jvm.1.7.1.3.nupkg.sha512"
+    "C:\\Users\\Benjamin\\.nuget\\packages\\xamarin.kotlinx.serialization.core.jvm\\1.7.1.3\\xamarin.kotlinx.serialization.core.jvm.1.7.1.3.nupkg.sha512",
+    "C:\\Users\\Benjamin\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
   ],
   "logs": []
 }
