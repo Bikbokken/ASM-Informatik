@@ -1,14 +1,63 @@
 ﻿@page "/"
-@using ASM.Shared.Services
-@inject IFormFactor FormFactor
+@inject AssetService AssetService
+@inject AssetCategoryService AssetCategoryService
+@inject LocationService LocationService
 
-<PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app running on <em>@factor</em> using <em>@platform</em>.
-
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card shadow-sm border-0 bg-light">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Assets</h5>
+                    <p class="card-text display-6">@assetCount</p>
+                    <a href="/assets" class="btn btn-primary btn-sm">Manage Assets</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm border-0 bg-light">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Categories</h5>
+                    <p class="card-text display-6">@categoryCount</p>
+                    <a href="/categories" class="btn btn-primary btn-sm">Manage Categories</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm border-0 bg-light">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Locations</h5>
+                    <p class="card-text display-6">@locationCount</p>
+                    <a href="/locations" class="btn btn-primary btn-sm">Manage Locations</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
 @code {
-    private string factor => FormFactor.GetFormFactor();
-    private string platform => FormFactor.GetPlatform();
+    private int assetCount;
+    private int categoryCount;
+    private int locationCount;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+
+        var assets = await AssetService.GetFilteredAssetsAsync(null, null);
+        var categories = await AssetCategoryService.GetAllAsync();
+        var locations = await LocationService.GetAllAsync();
+
+        assetCount = assets.Count();
+        categoryCount = categories.Count();
+        locationCount = locations.Count();
+
+        isLoading = false;
+    }
 }
