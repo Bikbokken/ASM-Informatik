@@ -6,40 +6,45 @@
 @inject LocationService LocationService
 @inject UserService UserService
 
-<h3>Opret nyt aktiv</h3>
+<style>
+    label {
+        margin-bottom: 0 !important;
+    }
+</style>
+<h3 class="fw-bold mb-2">New Asset</h3>
 
 <EditForm Model="@asset" OnValidSubmit="HandleValidSubmit">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
-    <div class="row mb-3">
+    <div class="row">
         <div class="col-md-6">
-            <label class="form-label">Navn</label>
-            <InputText class="form-control" @bind-Value="asset.Name" />
+            <label class="form-label fw-bold">Name</label>
+            <InputText class="form-control" placeholder="Name" @bind-Value="asset.Name" />
         </div>
 
         <div class="col-md-6">
-            <label class="form-label">Serienummer</label>
-            <InputText class="form-control" @bind-Value="asset.SerialNumber" />
+            <label class="form-label fw-bold">Serial Number</label>
+            <InputText class="form-control" placeholder="Serial Number" @bind-Value="asset.SerialNumber" />
         </div>
 
         <div class="col-md-6 mt-3">
-            <label class="form-label">Model</label>
-            <InputText class="form-control" @bind-Value="asset.Model" />
+            <label class="form-label fw-bold">Model</label>
+            <InputText class="form-control" placeholder="Model" @bind-Value="asset.Model" />
         </div>
 
         <div class="col-md-6 mt-3">
-            <label class="form-label">Indkøbsdato</label>
-            <InputDate class="form-control" @bind-Value="asset.PurchaseDate" />
+            <label class="form-label fw-bold">Date of purchase</label>
+            <InputDate class="form-control" placeholder="Date of purchase" @bind-Value="asset.PurchaseDate" />
         </div>
 
         <div class="col-md-6 mt-3">
-            <label class="form-label">Pris</label>
-            <InputNumber class="form-control" @bind-Value="asset.Price" />
+            <label class="form-label fw-bold">Price</label>
+            <InputNumber class="form-control" placeholder="Price" @bind-Value="asset.Price" />
         </div>
 
         <div class="col-md-6 mt-3">
-            <label class="form-label">Status</label>
+            <label class="form-label fw-bold">Status</label>
             <InputSelect class="form-select" @bind-Value="asset.CurrentStatus">
                 @foreach (var status in statuses)
                 {
@@ -49,9 +54,9 @@
         </div>
 
         <div class="col-md-6 mt-3">
-            <label class="form-label">Kategori</label>
+            <label class="form-label fw-bold ">Category</label>
             <InputSelect class="form-select" @bind-Value="asset.CategoryId">
-                <option value="">Vælg kategori</option>
+                <option value="">Choose Category</option>
                 @foreach (var cat in categories)
                 {
                     <option value="@cat.Id">@cat.Name</option>
@@ -61,9 +66,9 @@
 
 
         <div class="col-md-6 mt-3">
-            <label class="form-label">Placering</label>
+            <label class="form-label fw-bold">Location</label>
             <InputSelect class="form-select" @bind-Value="asset.LocationId">
-                <option value="">Ingen</option>
+                <option value="">None</option>
                 @foreach (var loc in locations)
                 {
                     <option value="@loc.Id">@loc.Name</option>
@@ -72,9 +77,9 @@
         </div>
 
         <div class="col-md-6 mt-3">
-            <label class="form-label">Ansvarlig Bruger</label>
+            <label class="form-label fw-bold">User</label>
             <InputSelect class="form-select" @bind-Value="asset.ResponsibleUserId">
-                <option value="">Ingen</option>
+                <option value="">None</option>
                 @foreach (var user in users)
                 {
                     <option value="@user.Id">@user.Name</option>
@@ -83,8 +88,11 @@
         </div>
     </div>
 
-    <button type="submit" class="btn btn-success mt-4">Opret</button>
-    <a href="/assets" class="btn btn-secondary mt-4 ms-2">Annullér</a>
+    <div class="d-flex align-items-start">
+        <button type="submit" class="btn btn-success mt-4">Create</button>
+        <a href="/assets" class="btn btn-secondary mt-4 ms-2">Cancel</a>
+    </div>
+
 </EditForm>
 
 @code {

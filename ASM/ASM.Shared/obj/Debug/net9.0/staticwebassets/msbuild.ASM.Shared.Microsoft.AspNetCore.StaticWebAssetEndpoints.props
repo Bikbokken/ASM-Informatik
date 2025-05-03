@@ -13,16 +13,16 @@
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2591"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 08:43:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ASM.Shared/ASM.Shared.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ASM.Shared.h8zx353je3.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ASM.Shared.svp4sr3o7s.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-X8gfxTsR3UClV\u002BnRIA0inDdZ7v/F8\u002BDz1Fjfnaucyh0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5861"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022X8gfxTsR3UClV\u002BnRIA0inDdZ7v/F8\u002BDz1Fjfnaucyh0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 16:32:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh\u002Bi79D6XjnI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6506"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh\u002Bi79D6XjnI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 12:01:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ASM.Shared.h8zx353je3.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ASM.Shared.svp4sr3o7s.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h8zx353je3"},{"Name":"integrity","Value":"sha256-X8gfxTsR3UClV\u002BnRIA0inDdZ7v/F8\u002BDz1Fjfnaucyh0="},{"Name":"label","Value":"_content/ASM.Shared/ASM.Shared.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5861"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022X8gfxTsR3UClV\u002BnRIA0inDdZ7v/F8\u002BDz1Fjfnaucyh0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 30 Apr 2025 16:32:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"svp4sr3o7s"},{"Name":"integrity","Value":"sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh\u002Bi79D6XjnI="},{"Name":"label","Value":"_content/ASM.Shared/ASM.Shared.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6506"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh\u002Bi79D6XjnI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 12:01:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ASM.Shared/bootstrap/bootstrap.min.6gzpyzhau4.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bootstrap\bootstrap.min.css'))</AssetFile>

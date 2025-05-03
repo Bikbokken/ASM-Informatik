@@ -7,12 +7,12 @@
     <DataAnnotationsValidator />
     <ValidationSummary />
 
-    <div class="d-flex w-100 gap-2">
-        <div class="flex-grow-1">
+    <div class="row mb-3">
+        <div class="col-md-5">
             <label>Name</label>
-            <InputText class="form-control" @bind-Value="formModel.Name" />
+            <InputText placeholder="Name" class="form-control" @bind-Value="formModel.Name" />
         </div>
-        <div class="mb-2 flex-grow-1½">
+        <div class="col-md-5">
             <label>Parent Category (optional)</label>
             <InputSelect class="form-control" @bind-Value="formModel.ParentId">
                 <option value="">(None)</option>
@@ -22,15 +22,20 @@
                 }
             </InputSelect>
         </div>
+        <div class="col-md-2">
+            <label></label>
+            <button type="submit" class="w-100 btn btn-primary">@((formModel.Id == 0) ? "Add" : "Update")</button>
+            @if (formModel.Id != 0)
+            {
+                <button type="button" class="btn btn-secondary" @onclick="ResetForm">Cancel</button>
+            }
+        </div>
+
     </div>
 
 
 
-    <button type="submit" class="btn btn-primary me-2">@((formModel.Id == 0) ? "Add" : "Update")</button>
-    @if (formModel.Id != 0)
-    {
-        <button type="button" class="btn btn-secondary" @onclick="ResetForm">Cancel</button>
-    }
+    
 </EditForm>
 
 <hr />

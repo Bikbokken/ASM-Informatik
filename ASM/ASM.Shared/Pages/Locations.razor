@@ -1,49 +1,75 @@
 ﻿@page "/locations"
 @inject IJSRuntime JS
-@inject LocationService LocationService;
+@inject LocationService LocationService
 
-
-<h3>Lokationer</h3>
+<h3 class="fw-bold">Locations</h3>
 
 <EditForm Model="newLocation" OnValidSubmit="AddLocation">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
     <div class="row mb-3">
-        <div class="col-md-4">
-            <InputText class="form-control" placeholder="Navn" @bind-Value="newLocation.Name" />
+        <div class="col-md-5">
+            <InputText class="form-control" placeholder="Name" @bind-Value="newLocation.Name" />
         </div>
-        <div class="col-md-4">
-            <InputText class="form-control" placeholder="Adresse (valgfri)" @bind-Value="newLocation.Address" />
+        <div class="col-md-5">
+            <InputText class="form-control" placeholder="Address (Optional)" @bind-Value="newLocation.Address" />
         </div>
-        <div class="col-md-4">
-            <button class="btn btn-primary w-100" type="submit">Tilføj lokation</button>
+        <div class="col-md-2">
+            <button class="btn btn-primary w-100" type="submit">Add</button>
         </div>
     </div>
 </EditForm>
 
 @if (locations.Count == 0)
 {
-    <p><em>Ingen lokationer fundet.</em></p>
+    <p><em>No locations found.</em></p>
 }
 else
 {
-    <table class="table table-striped">
+    <table class="table table-hover table-striped table-bordered">
         <thead>
             <tr>
-                <th>Navn</th>
-                <th>Adresse</th>
-                <th>Handling</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th style="width:15%"></th>
             </tr>
         </thead>
         <tbody>
             @foreach (var location in locations)
             {
                 <tr>
-                    <td>@location.Name</td>
-                    <td>@location.Address</td>
                     <td>
-                        <button class="btn btn-danger btn-sm" @onclick="() => DeleteLocation(location.Id)">Slet</button>
+                        @if (editingLocation?.Id == location.Id)
+                        {
+                            <InputText class="form-control form-control-sm" @bind-Value="editingLocation.Name" />
+                        }
+                        else
+                        {
+                            @location.Name
+                        }
+                    </td>
+                    <td>
+                        @if (editingLocation?.Id == location.Id)
+                        {
+                            <InputText class="form-control form-control-sm" @bind-Value="editingLocation.Address" />
+                        }
+                        else
+                        {
+                            @location.Address
+                        }
+                    </td>
+                    <td>
+                        @if (editingLocation?.Id == location.Id)
+                        {
+                            <button class="btn btn-sm btn-success me-1" @onclick="() => SaveEdit(location.Id)">Save</button>
+                            <button class="btn btn-sm btn-secondary" @onclick="CancelEdit">Delete</button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-sm btn-primary me-1" @onclick="() => StartEdit(location)">Edit</button>
+                            <button class="btn btn-sm btn-danger" @onclick="() => DeleteLocation(location.Id)">Delete</button>
+                        }
                     </td>
                 </tr>
             }
@@ -54,6 +80,7 @@ else
 @code {
     private List<Location> locations = new();
     private Location newLocation = new();
+    private Location? editingLocation;
 
     protected override async Task OnInitializedAsync()
     {
@@ -63,8 +90,7 @@ else
     private async Task LoadLocations()
     {
         locations = await LocationService.GetAllAsync();
-        locations = locations
-            .OrderBy(l => l.Name).ToList();
+        locations = locations.OrderBy(l => l.Name).ToList();
     }
 
     private async Task AddLocation()
@@ -79,7 +105,7 @@ else
 
     private async Task DeleteLocation(int id)
     {
-        bool confirmed = await JS.InvokeAsync<bool>("confirm", $"Er du sikker på, at du vil slette denne lokation");
+        bool confirmed = await JS.InvokeAsync<bool>("confirm", "Are you sure u want to delete this location?");
         if (confirmed)
         {
             var location = await LocationService.GetByIdAsync(id);
@@ -89,5 +115,30 @@ else
                 await LoadLocations();
             }
         }
+    }
+
+    private void StartEdit(Location location)
+    {
+        editingLocation = new Location
+            {
+                Id = location.Id,
+                Name = location.Name,
+                Address = location.Address
+            };
+    }
+
+    private async Task SaveEdit(int id)
+    {
+        if (editingLocation is not null && editingLocation.Id == id)
+        {
+            await LocationService.UpdateAsync(editingLocation);
+            editingLocation = null;
+            await LoadLocations();
+        }
+    }
+
+    private void CancelEdit()
+    {
+        editingLocation = null;
     }
 }

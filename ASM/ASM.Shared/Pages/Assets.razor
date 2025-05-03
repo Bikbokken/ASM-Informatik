@@ -2,9 +2,9 @@
 @inject AssetService AssetService
 
 <div class="d-flex mb-2 align-items-center justify-content-between w-100">
-    <h3 class="fw-bold">Alle Aktiver</h3>
+    <h3 class="fw-bold">All assets</h3>
     <div>
-        <a class="btn btn-md btn-primary mb-0" href="/assets/new">Opret ny</a>
+        <a class="btn btn-md btn-primary mb-0" href="/assets/new">New</a>
     </div>
 </div>
 
@@ -41,7 +41,7 @@
                     <td>@asset.PurchaseDate.ToShortDateString()</td>
                     <td>@asset.Price.ToString("C")</td>
                     <td class="text-center">
-                        <a class="btn btn-sm btn-primary" href="/asset/@asset.Id">Rediger</a>
+                        <a class="btn btn-sm btn-primary" href="/asset/@asset.Id">Edit</a>
                     </td>
                 </tr>
             }
