@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\pages\\assets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\pages\\assets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|solutionrelative:asm\\asm.shared\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDBF2CC4-7BAF-4107-BA73-72FE5BD67C74}|ASM\\ASM.Shared\\ASM.Shared.csproj|c:\\users\\benjamin\\desktop\\asm-informatik\\asm\\asm.shared\\pages\\newasset.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,18 +25,18 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 261,
+          "DockedWidth": 433,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Assets.razor",
               "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Assets.razor",
               "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Pages\\Assets.razor",
               "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Assets.razor",
               "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\Assets.razor",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAAEYAAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-03T12:23:50.503Z",
               "EditorCaption": ""
@@ -57,18 +57,18 @@
           ]
         },
         {
-          "DockedWidth": 261,
+          "DockedWidth": 89,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Home.razor",
               "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\Home.razor",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-03T12:22:53.906Z",
               "EditorCaption": ""

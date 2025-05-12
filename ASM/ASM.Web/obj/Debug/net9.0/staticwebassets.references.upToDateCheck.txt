@@ -34,3 +34,4 @@ C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticw
 C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json

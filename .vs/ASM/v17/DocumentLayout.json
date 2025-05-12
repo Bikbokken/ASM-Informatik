@@ -34,9 +34,9 @@
               "Title": "Assets.razor",
               "DocumentMoniker": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Assets.razor",
               "RelativeDocumentMoniker": "ASM\\ASM.Shared\\Pages\\Assets.razor",
-              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Assets.razor*",
-              "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\Assets.razor*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\Pages\\Assets.razor",
+              "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\Assets.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-03T12:23:50.503Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\NewAsset.razor",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T12:13:06.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T12:13:06.735Z"
             }
           ]
         },
@@ -83,8 +82,7 @@
               "RelativeToolTip": "ASM\\ASM.Shared\\Pages\\EditAsset.razor",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAFMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T12:13:05.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T12:13:05.441Z"
             }
           ]
         }

@@ -33,8 +33,13 @@ namespace ASM.Shared.Repositories
 
         public async Task UpdateAsync(AssetCategory category)
         {
-            _context.AssetCategories.Update(category);
-            await _context.SaveChangesAsync();
+            var existing = await _context.AssetCategories.FindAsync(category.Id);
+            if (existing != null)
+            {
+                existing.Name = category.Name;
+                existing.ParentId = category.ParentId;
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task DeleteCategoryAsync(int categoryId)
