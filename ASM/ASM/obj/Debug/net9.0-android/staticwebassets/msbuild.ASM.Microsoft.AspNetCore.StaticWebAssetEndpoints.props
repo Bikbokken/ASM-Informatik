@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"obgb1x923p"},{"Name":"integrity","Value":"sha256-nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU="},{"Name":"label","Value":"app.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"416"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nAPExVxs4MSkXKnxvGIYwMYuD37zfvuOz6q6ILLNXLU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 08:43:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="ASM.2q33t2rxhq.styles.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ASM.styles.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2q33t2rxhq"},{"Name":"integrity","Value":"sha256-ZlXrQita7UmstkS8gIUKVg8bPS8\u002B2fRLkb7LUcs4l5w="},{"Name":"label","Value":"ASM.styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"71"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZlXrQita7UmstkS8gIUKVg8bPS8\u002B2fRLkb7LUcs4l5w=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:48:40 GMT"},{"Name":"Link","Value":"\u003C_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css\u003E; rel=\u0022preload\u0022; as=\u0022style\u0022"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="ASM.styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ASM.styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZlXrQita7UmstkS8gIUKVg8bPS8\u002B2fRLkb7LUcs4l5w="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"71"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZlXrQita7UmstkS8gIUKVg8bPS8\u002B2fRLkb7LUcs4l5w=\u0022"},{"Name":"Last-Modified","Value":"Sat, 03 May 2025 10:48:40 GMT"},{"Name":"Link","Value":"\u003C_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css\u003E; rel=\u0022preload\u0022; as=\u0022style\u0022"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"71"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 18:35:36 GMT"},{"Name":"Link","Value":"\u003C_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css\u003E; rel=\u0022preload\u0022; as=\u0022style\u0022"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="ASM.z2jjwpykua.styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ASM.styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z2jjwpykua"},{"Name":"integrity","Value":"sha256-WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s="},{"Name":"label","Value":"ASM.styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"71"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 18:35:36 GMT"},{"Name":"Link","Value":"\u003C_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css\u003E; rel=\u0022preload\u0022; as=\u0022style\u0022"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="index.4wep58fl3j.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>

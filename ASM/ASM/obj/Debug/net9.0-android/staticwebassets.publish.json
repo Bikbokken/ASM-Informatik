@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "azbDJ83agpMOnbkf6Zm7yRG9z+oKFlRnYFI8ml/JBkg=",
+  "Hash": "x/q7fPihl3hhBOmYX6/B1qNSQ3pBPvBpn0YN2gXF36k=",
   "Source": "ASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -141,12 +141,12 @@
       "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
       "SourceId": "ASM.Shared",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/ASM.Shared",
-      "RelativePath": "ASM.Shared#[.{fingerprint=h8zx353je3}]!.bundle.scp.css.br",
+      "RelativePath": "ASM.Shared#[.{fingerprint=svp4sr3o7s}]!.bundle.scp.css.br",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -155,11 +155,11 @@
       "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "v3ahhebvjb",
-      "Integrity": "a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=",
+      "Fingerprint": "dsaq02auvx",
+      "Integrity": "HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br"
     },
     {
       "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
@@ -183,12 +183,12 @@
       "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "SourceId": "ASM.Shared",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM.Shared",
-      "RelativePath": "ASM.Shared#[.{fingerprint=h8zx353je3}]!.bundle.scp.css.gz",
+      "RelativePath": "ASM.Shared#[.{fingerprint=svp4sr3o7s}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -197,11 +197,11 @@
       "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ff45d4v54m",
-      "Integrity": "q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=",
+      "Fingerprint": "zyc5ukv8rs",
+      "Integrity": "FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz"
     },
     {
       "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
@@ -218,8 +218,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "h8zx353je3",
-      "Integrity": "X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=",
+      "Fingerprint": "svp4sr3o7s",
+      "Integrity": "CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css"
@@ -309,12 +309,12 @@
       "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-2q33t2rxhq.gz",
+      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-z2jjwpykua.gz",
       "SourceId": "ASM",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "ASM#[.{fingerprint=2q33t2rxhq}]?.styles.css.gz",
+      "RelativePath": "ASM#[.{fingerprint=z2jjwpykua}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -323,8 +323,8 @@
       "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "88clkx7gxw",
-      "Integrity": "2KYy23/CfraiPIS6jfgyiGPL1tv7HbThs30A4LQbJ9c=",
+      "Fingerprint": "4iyfmyjbmn",
+      "Integrity": "bOqFRzl/K4pon7hPVoeIjub2wBvR7jeA4Cf5lggs0Q4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css"
@@ -351,12 +351,12 @@
       "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-2q33t2rxhq.br",
+      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-z2jjwpykua.br",
       "SourceId": "ASM",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
-      "RelativePath": "ASM#[.{fingerprint=2q33t2rxhq}]?.styles.css.br",
+      "RelativePath": "ASM#[.{fingerprint=z2jjwpykua}]?.styles.css.br",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -365,8 +365,8 @@
       "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "cmuqif3buh",
-      "Integrity": "fATkW1/v2/+9YW0GLBmqhLisD2InEhHgJMfTWNrS9Ko=",
+      "Fingerprint": "rri5cv2i26",
+      "Integrity": "uQk2+ZBA/nO1yWiVF9L+763Hg6nnOfErloIjkS++qfg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css"
@@ -449,8 +449,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "2q33t2rxhq",
-      "Integrity": "ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w=",
+      "Fingerprint": "z2jjwpykua",
+      "Integrity": "WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css"
@@ -1015,12 +1015,12 @@
     },
     {
       "Route": "_content/ASM.Shared/ASM.Shared.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000692041522"
+          "Quality": "0.000646412411"
         }
       ],
       "ResponseHeaders": [
@@ -1038,15 +1038,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1546"
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         },
         {
           "Name": "Vary",
@@ -1058,24 +1058,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
       "Route": "_content/ASM.Shared/ASM.Shared.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000587889477"
+          "Quality": "0.000543773790"
         }
       ],
       "ResponseHeaders": [
@@ -1093,15 +1093,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         },
         {
           "Name": "Vary",
@@ -1113,13 +1113,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
@@ -1138,7 +1138,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5861"
+          "Value": "6506"
         },
         {
           "Name": "Content-Type",
@@ -1146,23 +1146,23 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
       "Route": "_content/ASM.Shared/ASM.Shared.bundle.scp.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1179,7 +1179,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1546"
         },
         {
           "Name": "Content-Type",
@@ -1187,11 +1187,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         },
         {
           "Name": "Vary",
@@ -1201,13 +1201,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8="
+          "Value": "sha256-HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg="
         }
       ]
     },
     {
       "Route": "_content/ASM.Shared/ASM.Shared.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1224,7 +1224,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "Content-Type",
@@ -1232,11 +1232,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         },
         {
           "Name": "Vary",
@@ -1246,18 +1246,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0="
+          "Value": "sha256-FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU="
         }
       ]
     },
     {
-      "Route": "_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "Route": "_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000692041522"
+          "Quality": "0.000646412411"
         }
       ],
       "ResponseHeaders": [
@@ -1275,15 +1275,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1546"
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         },
         {
           "Name": "Vary",
@@ -1295,17 +1295,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         },
         {
           "Name": "label",
@@ -1314,13 +1314,13 @@
       ]
     },
     {
-      "Route": "_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "Route": "_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000587889477"
+          "Quality": "0.000543773790"
         }
       ],
       "ResponseHeaders": [
@@ -1338,15 +1338,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         },
         {
           "Name": "Vary",
@@ -1358,17 +1358,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         },
         {
           "Name": "label",
@@ -1377,7 +1377,7 @@
       ]
     },
     {
-      "Route": "_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css",
+      "Route": "_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css",
       "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1391,7 +1391,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5861"
+          "Value": "6506"
         },
         {
           "Name": "Content-Type",
@@ -1399,21 +1399,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         },
         {
           "Name": "label",
@@ -1422,8 +1422,8 @@
       ]
     },
     {
-      "Route": "_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "Route": "_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1440,7 +1440,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1546"
         },
         {
           "Name": "Content-Type",
@@ -1448,11 +1448,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         },
         {
           "Name": "Vary",
@@ -1462,11 +1462,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8="
+          "Value": "sha256-HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg="
         },
         {
           "Name": "label",
@@ -1475,8 +1475,8 @@
       ]
     },
     {
-      "Route": "_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "Route": "_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1493,7 +1493,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "Content-Type",
@@ -1501,11 +1501,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Sat, 03 May 2025 12:01:13 GMT"
         },
         {
           "Name": "Vary",
@@ -1515,11 +1515,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0="
+          "Value": "sha256-FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU="
         },
         {
           "Name": "label",
@@ -3152,8 +3152,8 @@
       ]
     },
     {
-      "Route": "ASM.2q33t2rxhq.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-2q33t2rxhq.gz",
+      "Route": "ASM.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-z2jjwpykua.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3172,11 +3172,260 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2KYy23/CfraiPIS6jfgyiGPL1tv7HbThs30A4LQbJ9c=\""
+          "Value": "\"bOqFRzl/K4pon7hPVoeIjub2wBvR7jeA4Cf5lggs0Q4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-z2jjwpykua.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.015873015873"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uQk2+ZBA/nO1yWiVF9L+763Hg6nnOfErloIjkS++qfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.styles.css.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-z2jjwpykua.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uQk2+ZBA/nO1yWiVF9L+763Hg6nnOfErloIjkS++qfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uQk2+ZBA/nO1yWiVF9L+763Hg6nnOfErloIjkS++qfg="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.styles.css.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-z2jjwpykua.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bOqFRzl/K4pon7hPVoeIjub2wBvR7jeA4Cf5lggs0Q4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bOqFRzl/K4pon7hPVoeIjub2wBvR7jeA4Cf5lggs0Q4="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.z2jjwpykua.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-z2jjwpykua.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.012048192771"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bOqFRzl/K4pon7hPVoeIjub2wBvR7jeA4Cf5lggs0Q4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3196,21 +3445,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w=\""
+          "Value": "W/\"WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s=\""
         },
         {
           "Name": "Link",
-          "Value": "<_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+          "Value": "<_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2q33t2rxhq"
+          "Value": "z2jjwpykua"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w="
+          "Value": "sha256-WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s="
         },
         {
           "Name": "label",
@@ -3219,13 +3468,13 @@
       ]
     },
     {
-      "Route": "ASM.2q33t2rxhq.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-2q33t2rxhq.br",
+      "Route": "ASM.z2jjwpykua.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-z2jjwpykua.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.014925373134"
+          "Quality": "0.015873015873"
         }
       ],
       "ResponseHeaders": [
@@ -3235,15 +3484,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "66"
+          "Value": "62"
         },
         {
           "Name": "ETag",
-          "Value": "\"fATkW1/v2/+9YW0GLBmqhLisD2InEhHgJMfTWNrS9Ko=\""
+          "Value": "\"uQk2+ZBA/nO1yWiVF9L+763Hg6nnOfErloIjkS++qfg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3263,21 +3512,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w=\""
+          "Value": "W/\"WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s=\""
         },
         {
           "Name": "Link",
-          "Value": "<_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+          "Value": "<_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2q33t2rxhq"
+          "Value": "z2jjwpykua"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w="
+          "Value": "sha256-WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s="
         },
         {
           "Name": "label",
@@ -3286,7 +3535,7 @@
       ]
     },
     {
-      "Route": "ASM.2q33t2rxhq.styles.css",
+      "Route": "ASM.z2jjwpykua.styles.css",
       "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3308,25 +3557,25 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w=\""
+          "Value": "\"WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
         },
         {
           "Name": "Link",
-          "Value": "<_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+          "Value": "<_content/ASM.Shared/ASM.Shared.svp4sr3o7s.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2q33t2rxhq"
+          "Value": "z2jjwpykua"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w="
+          "Value": "sha256-WytfYV8bcnVMcuHibHwmkmv3kCLR7ZHlCcOnM5y2W8s="
         },
         {
           "Name": "label",
@@ -3335,8 +3584,8 @@
       ]
     },
     {
-      "Route": "ASM.2q33t2rxhq.styles.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-2q33t2rxhq.br",
+      "Route": "ASM.z2jjwpykua.styles.css.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-z2jjwpykua.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3345,7 +3594,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "66"
+          "Value": "62"
         },
         {
           "Name": "Content-Type",
@@ -3353,11 +3602,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fATkW1/v2/+9YW0GLBmqhLisD2InEhHgJMfTWNrS9Ko=\""
+          "Value": "\"uQk2+ZBA/nO1yWiVF9L+763Hg6nnOfErloIjkS++qfg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3375,7 +3624,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2q33t2rxhq"
+          "Value": "z2jjwpykua"
         },
         {
           "Name": "label",
@@ -3383,13 +3632,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fATkW1/v2/+9YW0GLBmqhLisD2InEhHgJMfTWNrS9Ko="
+          "Value": "sha256-uQk2+ZBA/nO1yWiVF9L+763Hg6nnOfErloIjkS++qfg="
         }
       ]
     },
     {
-      "Route": "ASM.2q33t2rxhq.styles.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-2q33t2rxhq.gz",
+      "Route": "ASM.z2jjwpykua.styles.css.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-z2jjwpykua.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3406,11 +3655,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2KYy23/CfraiPIS6jfgyiGPL1tv7HbThs30A4LQbJ9c=\""
+          "Value": "\"bOqFRzl/K4pon7hPVoeIjub2wBvR7jeA4Cf5lggs0Q4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
+          "Value": "Mon, 12 May 2025 18:35:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3428,7 +3677,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2q33t2rxhq"
+          "Value": "z2jjwpykua"
         },
         {
           "Name": "label",
@@ -3436,256 +3685,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2KYy23/CfraiPIS6jfgyiGPL1tv7HbThs30A4LQbJ9c="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-2q33t2rxhq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.012048192771"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "82"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2KYy23/CfraiPIS6jfgyiGPL1tv7HbThs30A4LQbJ9c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w=\""
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-2q33t2rxhq.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.014925373134"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "66"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fATkW1/v2/+9YW0GLBmqhLisD2InEhHgJMfTWNrS9Ko=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w=\""
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\ASM.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "71"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/ASM.Shared/ASM.Shared.h8zx353je3.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZlXrQita7UmstkS8gIUKVg8bPS8+2fRLkb7LUcs4l5w="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.styles.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\publish\\dg35qaw6if-2q33t2rxhq.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "66"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fATkW1/v2/+9YW0GLBmqhLisD2InEhHgJMfTWNrS9Ko=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-fATkW1/v2/+9YW0GLBmqhLisD2InEhHgJMfTWNrS9Ko="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.styles.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM\\obj\\Debug\\net9.0-android\\compressed\\dg35qaw6if-2q33t2rxhq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "82"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2KYy23/CfraiPIS6jfgyiGPL1tv7HbThs30A4LQbJ9c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 10:48:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2KYy23/CfraiPIS6jfgyiGPL1tv7HbThs30A4LQbJ9c="
+          "Value": "sha256-bOqFRzl/K4pon7hPVoeIjub2wBvR7jeA4Cf5lggs0Q4="
         }
       ]
     },

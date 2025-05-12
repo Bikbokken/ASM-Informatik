@@ -1,7 +1,0 @@
-C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\wwwroot\app.css
-C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\wwwroot\bootstrap\bootstrap.min.css.map
-C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\wwwroot\bootstrap\bootstrap.min.css
-wwwroot\app.css
-wwwroot\bootstrap\bootstrap.min.css
-wwwroot\bootstrap\bootstrap.min.css.map
-wwwroot\favicon.png

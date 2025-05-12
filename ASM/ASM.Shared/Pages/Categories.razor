@@ -1,5 +1,7 @@
 ﻿@page "/categories"
+@using Microsoft.AspNetCore.Authorization
 @inject AssetCategoryService AssetCategoryService
+@attribute [Authorize]
 
 <h3 class="fw-bold">Asset Categories</h3>
 
