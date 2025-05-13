@@ -1,0 +1,86 @@
+﻿@page "/users/edit/{UserId:int}"
+@inject UserService UserService
+@inject NavigationManager NavigationManager
+
+<h3 class="fw-bold mb-4">Edit User</h3>
+
+@if (user == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <EditForm Model="@user" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <InputText class="form-control" @bind-Value="user.Name" />
+            <ValidationMessage For="@(() => user.Name)" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <InputText class="form-control" @bind-Value="user.Email" />
+            <ValidationMessage For="@(() => user.Email)" />
+        </div>
+
+        <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a class="btn btn-secondary" href="/users">Cancel</a>
+        </div>
+    </EditForm>
+}
+
+
+<hr class="my-4" />
+
+<h5>Administrative Tools</h5>
+<p class="text-muted">Only for system administrators</p>
+
+<button class="btn btn-outline-warning">
+        <span>Send Password Reset Mail</span>
+</button>
+
+@if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="alert alert-danger mt-3">@errorMessage</div>
+}
+
+@code {
+    [Parameter]
+    public int UserId { get; set; }
+
+    private User? user;
+    private string? errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            user = await UserService.GetByIdAsync(UserId);
+            if (user == null)
+            {
+                errorMessage = "User not found.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Failed to load user: {ex.Message}";
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await UserService.UpdateAsync(user!);
+            NavigationManager.NavigateTo("/users");
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Failed to update user: {ex.Message}";
+        }
+    }
+}

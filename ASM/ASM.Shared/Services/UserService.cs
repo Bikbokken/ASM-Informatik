@@ -2,8 +2,6 @@
 using ASM.Shared.Repositories;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ASM.Shared.Services
@@ -18,6 +16,13 @@ namespace ASM.Shared.Services
         }
 
         public Task<List<User>> GetAllAsync() => _repo.GetAllAsync();
-    }
 
+        public Task<User?> GetByIdAsync(int id) => _repo.GetByIdAsync(id);
+
+        public Task<User> CreateAsync(User user) => _repo.CreateAsync(user);
+
+        public Task<bool> UpdateAsync(User user) => _repo.UpdateAsync(user);
+
+        public Task<bool> DeleteAsync(int id) => _repo.DeleteAsync(id);
+    }
 }

@@ -1,0 +1,50 @@
+﻿@page "/users/new"
+@inject UserService UserService
+@inject NavigationManager NavigationManager
+
+<h3 class="fw-bold mb-4">Create New User</h3>
+
+<EditForm Model="@newUser" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <InputText class="form-control" @bind-Value="newUser.Name" />
+        <ValidationMessage For="@(() => newUser.Name)" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <InputText class="form-control" @bind-Value="newUser.Email" />
+        <ValidationMessage For="@(() => newUser.Email)" />
+    </div>
+
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-success">Create</button>
+        <a class="btn btn-secondary" href="/users">Cancel</a>
+    </div>
+</EditForm>
+
+@if (!string.IsNullOrWhiteSpace(errorMessage))
+{
+    <div class="alert alert-danger mt-3">@errorMessage</div>
+}
+
+@code {
+    private User newUser = new();
+    private string? errorMessage;
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await UserService.CreateAsync(newUser);
+            NavigationManager.NavigateTo("/users");
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Failed to create user: {ex.Message}";
+        }
+    }
+}
