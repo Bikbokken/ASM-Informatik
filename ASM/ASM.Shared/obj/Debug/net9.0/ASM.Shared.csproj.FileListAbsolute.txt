@@ -49,8 +49,6 @@ C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\scope
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\compressed\17p4w7syfz-da95v2qkru.gz
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\compressed\qxbxssfkg1-6gzpyzhau4.gz
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\compressed\fcmfcc96hc-8inm30yfxf.gz
-C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\compressed\0txnnxpl5g-vbcvsdn8hs.gz
-C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\compressed\v75nqb7a5l-vbcvsdn8hs.gz
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -99,3 +97,5 @@ C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\ASM.Sha
 C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\ref\ASM.Shared.dll
 C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\compressed\0txnnxpl5g-svp4sr3o7s.gz
 C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\compressed\v75nqb7a5l-svp4sr3o7s.gz
+C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\compressed\0txnnxpl5g-svp4sr3o7s.gz
+C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Shared\obj\Debug\net9.0\compressed\v75nqb7a5l-svp4sr3o7s.gz

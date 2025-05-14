@@ -1,5 +1,7 @@
 ﻿@page "/assets"
 @inject AssetService AssetService
+@inject IJSRuntime JS
+
 
 <div class="d-flex mb-2 align-items-center justify-content-between w-100">
     <h3 class="fw-bold">All assets</h3>
@@ -10,11 +12,11 @@
 
 
 <input type="text"
-       @bind="serialSearchTerm"
-       @oninput="OnSerialSearchChanged"
-       class="form-control mb-4"
-       placeholder="Search by serial number..."
-       style="max-width: 300px;" />
+@bind="serialSearchTerm"
+@oninput="OnSerialSearchChanged"
+class="form-control mb-4"
+placeholder="Search by serial number..."
+style="max-width: 300px;" />
 
 
 <table class="table table-hover table-striped table-bordered">
@@ -51,6 +53,8 @@
                 <td>@asset.Price.ToString("C")</td>
                 <td class="text-center">
                     <a class="btn btn-sm btn-primary" href="/asset/@asset.Id">Edit</a>
+                    <button class="btn btn-sm btn-danger" @onclick="() => DeleteAsset(asset.Id)">Delete</button>
+
                 </td>
             </tr>
         }
@@ -127,4 +131,17 @@
 
         }
     }
+
+    private async Task DeleteAsset(int id)
+    {
+        bool confirmed = await JS.InvokeAsync<bool>("confirm", "Are you sure u want to delete this asset?");
+        if (confirmed)
+        {
+            await AssetService.DeleteAsync(id);
+            allAssets = await AssetService.GetFilteredAssetsAsync(null, null);
+            ApplyFilters();
+            StateHasChanged();
+        }
+    }
+
 }

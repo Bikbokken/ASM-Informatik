@@ -1,5 +1,7 @@
 ﻿@page "/categories"
 @inject AssetCategoryService AssetCategoryService
+@inject IJSRuntime JS
+
 
 <h3 class="fw-bold">Asset Categories</h3>
 
@@ -35,7 +37,7 @@
 
 
 
-    
+
 </EditForm>
 
 <hr />
@@ -51,7 +53,7 @@ else
         <thead class="table-light">
             <tr>
                 <th>Existing Categories</th>
-                <th style="width:10%"></th>
+                <th style="width:15%"></th>
             </tr>
         </thead>
         <tbody>
@@ -106,12 +108,12 @@ else
                builder.CloseElement(); // tr
 
 
-           if (child.Children.Any())
-           {
-                Console.WriteLine("Rendering children for: " + child.Name);
-                builder.AddContent(seq++, RenderCategoryChildren(child.Children, indentLevel + 1));
+               if (child.Children.Any())
+               {
+                   Console.WriteLine("Rendering children for: " + child.Name);
+                   builder.AddContent(seq++, RenderCategoryChildren(child.Children, indentLevel + 1));
+               }
            }
-       }
        };
 
     private AssetCategory formModel = new();
@@ -172,8 +174,12 @@ else
 
     private async Task DeleteCategory(AssetCategory category)
     {
-        await AssetCategoryService.DeleteCategoryAsync(category.Id);
-        await LoadCategories();
+        bool confirmed = await JS.InvokeAsync<bool>("confirm", "Are you sure u want to delete this category?");
+        if (confirmed)
+        {
+            await AssetCategoryService.DeleteCategoryAsync(category.Id);
+            await LoadCategories();
+        }
     }
 
     private void ResetForm()

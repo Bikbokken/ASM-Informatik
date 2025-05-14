@@ -1,4 +1,4 @@
-C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM\wwwroot\index.html
-C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM\wwwroot\app.css
+C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM\wwwroot\index.html
+C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM\wwwroot\app.css
 wwwroot\app.css
 wwwroot\index.html

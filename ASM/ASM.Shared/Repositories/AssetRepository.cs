@@ -51,6 +51,17 @@ namespace ASM.Shared.Repositories
             await _db.Assets.AddAsync(asset);
             await _db.SaveChangesAsync();
         }
+
+        public async Task DeleteAsync(int id)
+        {
+            var location = await _db.Assets.FindAsync(id);
+            if (location != null)
+            {
+                _db.Assets.Remove(location);
+                await _db.SaveChangesAsync();
+            }
+        }
+
     }
 
 }

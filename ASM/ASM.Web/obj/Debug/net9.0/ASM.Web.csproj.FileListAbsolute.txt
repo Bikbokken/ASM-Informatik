@@ -318,7 +318,6 @@ C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\ASM.Web.
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\ASM.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\ASM.Web.sourcelink.json
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\scopedcss\bundle\ASM.Web.styles.css
-C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\compressed\z6nbwcifoq-fy0dz4843x.gz
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -503,3 +502,4 @@ C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\ASM.Web.pd
 C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\ASM.Web.genruntimeconfig.cache
 C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\ref\ASM.Web.dll
 C:\Users\Benjamin\Desktop\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\compressed\z6nbwcifoq-z2jjwpykua.gz
+C:\Users\Benjamin\Documents\ASM-Informatik\ASM\ASM.Web\obj\Debug\net9.0\compressed\z6nbwcifoq-z2jjwpykua.gz

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eXHIC/A0XD3kkIqgAF818LZs7ciiSukPHtjnOGDpOz4=",
+  "Hash": "nQmbeCDdF4vkY3DYp3Vht7OjamnamAeeAh3Q8Lg08Ag=",
   "Source": "ASM.Shared",
   "BasePath": "_content/ASM.Shared",
   "Mode": "Default",
@@ -10,38 +10,38 @@
     {
       "Name": "ASM.Shared\\wwwroot",
       "Source": "ASM.Shared",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
       "BasePath": "_content/ASM.Shared",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-h8zx353je3.gz",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-svp4sr3o7s.gz",
       "SourceId": "ASM.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM.Shared",
-      "RelativePath": "ASM.Shared#[.{fingerprint=h8zx353je3}]?.styles.css.gz",
+      "RelativePath": "ASM.Shared#[.{fingerprint=svp4sr3o7s}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ff45d4v54m",
-      "Integrity": "q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=",
+      "Fingerprint": "zyc5ukv8rs",
+      "Integrity": "FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "app#[.{fingerprint=da95v2qkru}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "35bsr2s5bp",
       "Integrity": "Z2oZxhy3yCVx4TNMrDOMMpGuoPS7gb7KEuo/dm8OHbc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
       "AssetKind": "All",
@@ -70,41 +70,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "m532s4naxw",
       "Integrity": "epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-h8zx353je3.br",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-svp4sr3o7s.br",
       "SourceId": "ASM.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/ASM.Shared",
-      "RelativePath": "ASM.Shared#[.{fingerprint=h8zx353je3}]?.styles.css.br",
+      "RelativePath": "ASM.Shared#[.{fingerprint=svp4sr3o7s}]?.styles.css.br",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "v3ahhebvjb",
-      "Integrity": "a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=",
+      "Fingerprint": "dsaq02auvx",
+      "Integrity": "HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "app#[.{fingerprint=da95v2qkru}]?.css.br",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "9mqv5xoish",
       "Integrity": "geF/MS0+gNluNrPIl/EEXn78BLEax6Px8CXeNIu/ehM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.br",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "b4a1wrn6r6",
       "Integrity": "e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.br",
       "AssetKind": "All",
@@ -154,41 +154,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "2o883p7o84",
       "Integrity": "4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
       "SourceId": "ASM.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/ASM.Shared",
-      "RelativePath": "ASM.Shared#[.{fingerprint=h8zx353je3}]!.bundle.scp.css.br",
+      "RelativePath": "ASM.Shared#[.{fingerprint=svp4sr3o7s}]!.bundle.scp.css.br",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "v3ahhebvjb",
-      "Integrity": "a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=",
+      "Fingerprint": "dsaq02auvx",
+      "Integrity": "HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.gz",
       "AssetKind": "All",
@@ -196,41 +196,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "7l51xal3e9",
       "Integrity": "dfRdV3FWJNHUyN/ZTK8eRHslFtdOjQxpi1BEcWXtMR8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "SourceId": "ASM.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASM.Shared",
-      "RelativePath": "ASM.Shared#[.{fingerprint=h8zx353je3}]!.bundle.scp.css.gz",
+      "RelativePath": "ASM.Shared#[.{fingerprint=svp4sr3o7s}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
+      "RelatedAsset": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ff45d4v54m",
-      "Integrity": "q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=",
+      "Fingerprint": "zyc5ukv8rs",
+      "Integrity": "FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
       "SourceId": "ASM.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "ASM.Shared#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -241,17 +241,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "h8zx353je3",
-      "Integrity": "X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=",
+      "Fingerprint": "svp4sr3o7s",
+      "Integrity": "CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
       "SourceId": "ASM.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "ASM.Shared#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -262,17 +262,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "h8zx353je3",
-      "Integrity": "X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=",
+      "Fingerprint": "svp4sr3o7s",
+      "Integrity": "CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\favicon.png",
       "SourceId": "ASM.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\",
       "BasePath": "_content/ASM.Shared",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -356,7 +356,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -379,7 +379,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -411,7 +411,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -434,7 +434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -466,7 +466,7 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -487,7 +487,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -503,7 +503,7 @@
     },
     {
       "Route": "app.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -524,7 +524,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -548,7 +548,7 @@
     },
     {
       "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -569,7 +569,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -593,7 +593,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -616,7 +616,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -656,7 +656,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -679,7 +679,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -719,7 +719,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -740,7 +740,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -764,7 +764,7 @@
     },
     {
       "Route": "app.da95v2qkru.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\17p4w7syfz-da95v2qkru.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -785,7 +785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -817,7 +817,7 @@
     },
     {
       "Route": "app.da95v2qkru.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\17p4w7syfz-da95v2qkru.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -838,7 +838,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -870,12 +870,12 @@
     },
     {
       "Route": "ASM.Shared.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000692041522"
+          "Quality": "0.000646412411"
         }
       ],
       "ResponseHeaders": [
@@ -885,15 +885,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1546"
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -913,24 +913,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
       "Route": "ASM.Shared.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000587889477"
+          "Quality": "0.000543773790"
         }
       ],
       "ResponseHeaders": [
@@ -940,15 +940,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -968,19 +968,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
       "Route": "ASM.Shared.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -989,7 +989,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5861"
+          "Value": "6506"
         },
         {
           "Name": "Content-Type",
@@ -997,11 +997,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1011,13 +1011,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
       "Route": "ASM.Shared.bundle.scp.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1026,7 +1026,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1546"
         },
         {
           "Name": "Content-Type",
@@ -1034,11 +1034,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1056,13 +1056,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8="
+          "Value": "sha256-HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg="
         }
       ]
     },
     {
       "Route": "ASM.Shared.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1071,7 +1071,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "Content-Type",
@@ -1079,11 +1079,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1101,18 +1101,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0="
+          "Value": "sha256-FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "Route": "ASM.Shared.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-svp4sr3o7s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.000692041522"
+          "Value": "gzip",
+          "Quality": "0.000543773790"
         }
       ],
       "ResponseHeaders": [
@@ -1122,15 +1122,252 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1838"
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.Shared.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-svp4sr3o7s.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000646412411"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1546"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.Shared.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.Shared.styles.css.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-svp4sr3o7s.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.Shared.styles.css.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-svp4sr3o7s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU="
+        }
+      ]
+    },
+    {
+      "Route": "ASM.Shared.svp4sr3o7s.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000646412411"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1546"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1150,13 +1387,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1164,18 +1401,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "Route": "ASM.Shared.svp4sr3o7s.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000587889477"
+          "Quality": "0.000543773790"
         }
       ],
       "ResponseHeaders": [
@@ -1185,15 +1422,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1213,13 +1450,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1227,13 +1464,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
+      "Route": "ASM.Shared.svp4sr3o7s.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ASM.Shared.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1242,7 +1479,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5861"
+          "Value": "6506"
         },
         {
           "Name": "Content-Type",
@@ -1250,11 +1487,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1264,7 +1501,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1272,13 +1509,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.bundle.scp.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-h8zx353je3.br",
+      "Route": "ASM.Shared.svp4sr3o7s.bundle.scp.css.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\v75nqb7a5l-svp4sr3o7s.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1287,7 +1524,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1546"
         },
         {
           "Name": "Content-Type",
@@ -1295,11 +1532,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1317,7 +1554,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1325,13 +1562,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8="
+          "Value": "sha256-HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-h8zx353je3.gz",
+      "Route": "ASM.Shared.svp4sr3o7s.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\v75nqb7a5l-svp4sr3o7s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1340,7 +1577,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "Content-Type",
@@ -1348,11 +1585,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1370,7 +1607,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1378,18 +1615,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0="
+          "Value": "sha256-FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-h8zx353je3.gz",
+      "Route": "ASM.Shared.svp4sr3o7s.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-svp4sr3o7s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000587889477"
+          "Quality": "0.000543773790"
         }
       ],
       "ResponseHeaders": [
@@ -1399,15 +1636,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1427,13 +1664,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1441,18 +1678,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-h8zx353je3.br",
+      "Route": "ASM.Shared.svp4sr3o7s.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-svp4sr3o7s.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000692041522"
+          "Quality": "0.000646412411"
         }
       ],
       "ResponseHeaders": [
@@ -1462,15 +1699,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1546"
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1490,13 +1727,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "W/\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1504,13 +1741,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
+      "Route": "ASM.Shared.svp4sr3o7s.styles.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1519,7 +1756,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5861"
+          "Value": "6506"
         },
         {
           "Name": "Content-Type",
@@ -1527,11 +1764,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
+          "Value": "\"CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1541,7 +1778,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1549,13 +1786,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
+          "Value": "sha256-CHSaq5nOOGM06YeyhHlS3mx3IHassxhvh+i79D6XjnI="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.styles.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-h8zx353je3.br",
+      "Route": "ASM.Shared.svp4sr3o7s.styles.css.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-svp4sr3o7s.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1564,7 +1801,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1444"
+          "Value": "1546"
         },
         {
           "Name": "Content-Type",
@@ -1572,11 +1809,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
+          "Value": "\"HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1594,7 +1831,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1602,13 +1839,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8="
+          "Value": "sha256-HSF9PLXGSj0X7dSVkPOxg+XAC4BTBQQh4OLZuADkIKg="
         }
       ]
     },
     {
-      "Route": "ASM.Shared.h8zx353je3.styles.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-h8zx353je3.gz",
+      "Route": "ASM.Shared.svp4sr3o7s.styles.css.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-svp4sr3o7s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1617,7 +1854,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1700"
+          "Value": "1838"
         },
         {
           "Name": "Content-Type",
@@ -1625,11 +1862,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
+          "Value": "\"FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
+          "Value": "Thu, 08 May 2025 17:36:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1647,7 +1884,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "h8zx353je3"
+          "Value": "svp4sr3o7s"
         },
         {
           "Name": "label",
@@ -1655,250 +1892,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.Shared.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-h8zx353je3.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000587889477"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1700"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.Shared.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-h8zx353je3.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.000692041522"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1444"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.Shared.styles.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\scopedcss\\bundle\\ASM.Shared.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5861"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-X8gfxTsR3UClV+nRIA0inDdZ7v/F8+Dz1Fjfnaucyh0="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.Shared.styles.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\0txnnxpl5g-h8zx353je3.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1444"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-a2Zz7uO+SsdRsTz/kCyfLw0H0j8+pY3TBJCoG5rijm8="
-        }
-      ]
-    },
-    {
-      "Route": "ASM.Shared.styles.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\0txnnxpl5g-h8zx353je3.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1700"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 16:32:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-q5JBVWF4eu4/O4H0ETaIg0gcEiGTPkMGoxcBw/Dxcc0="
+          "Value": "sha256-FZFGiAM1s6LErRpGNWR4m4Furm6txgCH4i9qtrejeZU="
         }
       ]
     },
     {
       "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1921,7 +1921,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1961,7 +1961,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1984,7 +1984,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2024,7 +2024,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2045,7 +2045,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2069,7 +2069,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2090,7 +2090,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2122,7 +2122,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2143,7 +2143,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2175,7 +2175,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2198,7 +2198,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2230,7 +2230,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2253,7 +2253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2285,7 +2285,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2306,7 +2306,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2322,7 +2322,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2345,7 +2345,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2385,7 +2385,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2408,7 +2408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2448,7 +2448,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2469,7 +2469,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2493,7 +2493,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2514,7 +2514,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2546,7 +2546,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2567,7 +2567,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2599,7 +2599,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\qxbxssfkg1-6gzpyzhau4.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2620,7 +2620,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2644,7 +2644,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\qxbxssfkg1-6gzpyzhau4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2665,7 +2665,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2689,7 +2689,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2712,7 +2712,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2744,7 +2744,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2767,7 +2767,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2799,7 +2799,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2820,7 +2820,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2836,7 +2836,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map.br",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\publish\\fcmfcc96hc-8inm30yfxf.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2857,7 +2857,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2881,7 +2881,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map.gz",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\obj\\Debug\\net9.0\\compressed\\fcmfcc96hc-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2902,7 +2902,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2926,7 +2926,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2947,7 +2947,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2971,7 +2971,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Users\\Benjamin\\Desktop\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\Users\\Benjamin\\Documents\\ASM-Informatik\\ASM\\ASM.Shared\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2992,7 +2992,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 08:43:09 GMT"
+          "Value": "Thu, 10 Apr 2025 19:38:29 GMT"
         },
         {
           "Name": "Cache-Control",

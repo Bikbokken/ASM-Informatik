@@ -42,6 +42,11 @@ namespace ASM.Shared.Services
             return _repository.CreateAsync(asset);
         }
 
+        public Task DeleteAsync(int id)
+        {
+            return _repository.DeleteAsync(id);
+        }
+
     }
 
 }
